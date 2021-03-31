@@ -10,8 +10,7 @@ void main() {
         backgroundColor: Colors.blueGrey[400],
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://c8.alamy.com/comp/2BCRWN6/beautiful-tree-in-front-of-sunset-bedfordshire-2020-2BCRWN6.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         )),
   ));
